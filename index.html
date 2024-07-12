@@ -57,9 +57,9 @@
         <div class="align-left project-content">
           <h3>Responsive landing page</h3>
           <p>
-            Responsive landing page for a company specializing in modern and
-            minimalist interior design. I'm excited to share this project with
-            you!
+            As part of my web development internship at PRASUNET COMPANY, I had
+            the opportunity to create a responsive landing page for a company
+            specializing in modern and minimalist interior design.
           </p>
         </div>
         <img src="images/landing.png" alt="" />
@@ -71,7 +71,8 @@
           <p>
             Hosted searXNG on my Linux cloud server powered by AWS. This ensures
             reliable performance, scalability, and the flexibility to adapt to
-            changing needs.
+            changing needs. This search engine aggregates results from various
+            sources while respecting your digital rights.
           </p>
         </div>
       </div>
@@ -113,7 +114,75 @@
           below or give us a call. We look forward to working with you!
         </p>
       </div>
-      <div><form action=""></form></div>
+
+      <form class="consult-form">
+        <div class="input-name">
+          <label for="name"
+            >Name <span class="required-asterisk">*</span></label
+          >
+          <input
+            type="text"
+            placeholder="First Name"
+            id="first-name"
+            name="first-name"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Middle Name"
+            id="middle-name"
+            name="middle-name"
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            id="last-name"
+            name="last-name"
+            required
+          />
+        </div>
+
+        <div class="input-contact">
+          <div>
+            <label for="email"
+              >Email <span class="required-asterisk">*</span></label
+            >
+            <input
+              type="email"
+              placeholder="janedoe@example.org"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              placeholder="(123) 456-7890"
+              id="phone"
+              name="phone"
+            />
+          </div>
+        </div>
+
+        <div class="message">
+          <label for="message"
+            >Message <span class="required-asterisk">*</span></label
+          >
+          <textarea
+            id="message"
+            placeholder="Write about your dream design..."
+            name="message"
+            required
+          ></textarea>
+        </div>
+
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
     </section>
   </body>
 </html>
