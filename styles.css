@@ -12,13 +12,14 @@ body {
 a {
   text-decoration: none;
   color: white;
+  font-size: 1.3rem;
 }
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 80px 20px;
+  margin: 0px 80px;
 }
 
 ul {
@@ -32,10 +33,16 @@ li {
   margin-left: 80px;
 }
 
-h1,
+h1 {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 h2,
 h3 {
-  font-family: "K2D", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -49,5 +56,32 @@ img {
 }
 
 section {
-  margin: 0px 80px 20px;
+  margin: 20px 120px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh - 100px;
+}
+
+.home div {
+  width: 700px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-content h2 {
+  font-size: 4rem;
+  text-align: right;
+  margin: 0px;
+}
+
+.home-content p {
+  text-align: justify;
+  font-size: 1.3rem;
 }
