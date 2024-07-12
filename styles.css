@@ -1,0 +1,28 @@
+body {
+  background-image: url(images/backdrop.jpg);
+  background-size: cover;
+  color: white;
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+.home img,
+.about img {
+  width: 400px;
+}
