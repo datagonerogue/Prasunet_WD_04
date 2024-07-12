@@ -131,3 +131,19 @@ section h2 {
 .align-left {
   text-align: left;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-self: center;
+}
