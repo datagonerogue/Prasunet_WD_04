@@ -17,6 +17,7 @@ a {
 
 p {
   font-size: 1.3rem;
+  text-align: justify;
 }
 header {
   display: flex;
@@ -128,7 +129,7 @@ section h2 {
   margin-bottom: 0px;
 }
 
-.align-left {
+.align-left h3 {
   text-align: left;
 }
 
@@ -146,4 +147,69 @@ section h2 {
   flex-direction: column;
   width: 600px;
   align-self: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin: 20px 0px;
+}
+input,
+textarea {
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: white 2px solid;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.input-name input {
+  margin-left: 10px;
+}
+
+.required-asterisk {
+  color: red;
+}
+
+.input-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-contact div input {
+  margin-left: 10px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message textarea {
+  margin: 20px auto;
+  width: 80%;
+  height: 100px;
+}
+
+.submit {
+  margin: 0px auto;
+}
+
+.submit button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: white 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
