@@ -70,7 +70,7 @@ img {
 }
 
 section {
-  margin: 60px 120px;
+  margin: 40px 120px;
 }
 
 section h2 {
@@ -112,7 +112,7 @@ section h2 {
 
 .project {
   display: flex;
-  margin: 40px 0px;
+  margin: 20px 0px;
   justify-content: space-between;
 }
 
@@ -140,6 +140,7 @@ section h2 {
 .about div {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .about-content {
@@ -152,9 +153,17 @@ section h2 {
 .contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
+
+.contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-content p {
+  width: 600px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -174,7 +183,7 @@ textarea {
 }
 
 .input-name input {
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .required-asterisk {
@@ -187,7 +196,7 @@ textarea {
   align-items: center;
 }
 .input-contact div input {
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .message {
@@ -197,6 +206,7 @@ textarea {
 
 .message textarea {
   margin: 20px auto;
+  margin-left: 20px;
   width: 80%;
   height: 100px;
 }
