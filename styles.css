@@ -13,6 +13,11 @@ a {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: blueviolet;
 }
 
 p {
@@ -59,9 +64,6 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
-}
-img {
-  width: 400px;
 }
 
 .home img,
@@ -112,10 +114,14 @@ section h2 {
 
 .project {
   display: flex;
-  margin: 20px 0px;
+  margin: 30px 0px;
   justify-content: space-between;
 }
 
+.project img {
+  width: 350px;
+  height: 200px;
+}
 .project-content {
   text-align: right;
   max-width: 800px;
@@ -222,4 +228,19 @@ textarea {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+.submit button:hover {
+  background-color: white;
+  color: blueviolet;
+  border: rgba(0, 0, 0, 0) 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+form {
+  font-size: 1.3rem;
+}
+button {
+  font-size: 1rem;
 }
