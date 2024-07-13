@@ -244,7 +244,16 @@ form {
 button {
   font-size: 1rem;
 }
-/* Add this to your styles.css file */
+
+@media (max-width: 1600px) {
+  .project-content {
+    max-width: 600px;
+  }
+
+  form {
+    display: none;
+  }
+}
 
 @media (max-width: 1280px) {
   header {
@@ -341,6 +350,7 @@ button {
   }
   form {
     margin: 0px auto;
+    display: flex;
   }
   form div {
     margin: 0px;
@@ -376,12 +386,8 @@ button {
   }
 }
 
-@media (max-width: 1600px) {
-  .project-content {
-    max-width: 600px;
-  }
-
-  form {
+@media (max-width: 500px) {
+  .about-image {
     display: none;
   }
 }
