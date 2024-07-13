@@ -32,7 +32,23 @@ header {
   margin: 0px 120px;
   padding-top: 40px;
 }
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
 
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
 ul {
   display: flex;
   flex-direction: row;
@@ -398,6 +414,16 @@ button {
     justify-content: center;
 
     margin: 0px;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
   }
 
   ul {
