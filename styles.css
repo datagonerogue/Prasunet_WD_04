@@ -244,3 +244,144 @@ form {
 button {
   font-size: 1rem;
 }
+/* Add this to your styles.css file */
+
+@media (max-width: 1280px) {
+  header {
+    margin: 0px 40px;
+    padding-top: 20px;
+  }
+
+  li {
+    margin-left: 40px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  section {
+    margin: 40px;
+  }
+
+  .home {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home div {
+    width: 100%;
+  }
+
+  .home img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .home-content {
+    margin: 20px auto;
+  }
+
+  .home-content h2 {
+    font-size: 2.5rem;
+    text-align: right;
+    margin: 20px auto;
+  }
+
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-content {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .align-left h3 {
+    text-align: center;
+  }
+  .align-left {
+    order: 1;
+  }
+
+  .about div {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .about img {
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+
+  .about-content {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .contact div {
+    flex-direction: column;
+  }
+
+  .contact-content p {
+    width: 100%;
+  }
+  form {
+    margin: 0px auto;
+  }
+  form div {
+    margin: 0px;
+  }
+
+  .input-name input {
+    margin: 20px 0px;
+    padding-right: 120px;
+  }
+  .input-name {
+    flex-direction: column;
+    align-items: baseline;
+    width: fit-content;
+  }
+  .input-contact {
+    flex-direction: column;
+    align-items: baseline;
+    width: fit-content;
+  }
+
+  .input-contact div input {
+    margin: 20px auto;
+    padding-right: 120px;
+  }
+  .message {
+    flex-direction: column;
+    align-items: baseline;
+    width: fit-content;
+  }
+  .message textarea {
+    margin: 30px 0px;
+    width: 260px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .project-content {
+    max-width: 600px;
+  }
+
+  form {
+    display: none;
+  }
+}
